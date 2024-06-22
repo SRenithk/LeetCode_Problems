@@ -39,6 +39,6 @@ class Program
         Console.WriteLine("Enter a Name");
         var input = Console.ReadLine();
         var op = s.ScoreOfString(input);
-        Console.WriteLine(op); 
+        Console.WriteLine(op);
     }
 }
