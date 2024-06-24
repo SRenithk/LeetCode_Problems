@@ -71,3 +71,7 @@
 ////     []2 3 4[][]6 []  
 //// _[]1[][]5[][][][][][]
 #endregion
+
+#region NewApproach
+
+#endregion
