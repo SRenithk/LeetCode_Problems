@@ -12,23 +12,18 @@ public class Solution // Attempted - Not Solved
 {
     public int MaxSatisfied(int[] customers, int[] grumpy, int minutes)
     {
-        var op = 0;
+        var sum = 0;
         for (int i = 0; i < customers.Length; i++)
         {
-            if (i <= minutes)
+            if (i >= minutes && customers[i] > 0 && grumpy[i] > 0) //Ignore logic
             {
-                if (grumpy[i] == 0)
-                {
-                    op = op + customers[i];
-                }
-
-            }
-            else
+                continue;
+            } else
             {
-                op = op + customers[i];
+                sum += customers[i];
             }
         }
-        return op;
+        return sum;
     }
 }
 
@@ -37,9 +32,9 @@ public class Program
     public static void Main(string[] args)
     {
         Solution s = new Solution();
-        int[] customers = [3];
-        int[] grumpy = [1];
-        int minutes = 1;
+        int[] customers = [1, 0, 1, 2, 1, 1, 7, 5];
+        int[] grumpy =    [0, 1, 0, 1, 0, 1, 0, 1];
+        int minutes = 3;
         var op = s.MaxSatisfied(customers, grumpy, minutes);
         Console.WriteLine(op);
 

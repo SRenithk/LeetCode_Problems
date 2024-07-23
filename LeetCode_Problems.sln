@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Hard", "02 - Hard", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E1 - Two Sum (01) ✔", "E1 - Two Sum (01)\E1 - Two Sum (01) ✔.csproj", "{92A69EDD-B4C7-4011-8063-336789015AB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H1 - TrappingRainWater (42) ⦿", "H1 - TrappingRainWater (42)\H1 - TrappingRainWater (42) ⦿.csproj", "{55AA9114-C3AB-46C8-9528-C06FD020C8D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H1 - TrappingRainWater (42) ✔", "H1 - TrappingRainWater (42)\H1 - TrappingRainWater (42) ✔.csproj", "{55AA9114-C3AB-46C8-9528-C06FD020C8D4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M1 - Minimum Remove to Make Valid Parentheses (1249) ✔", "M1 - Minimum Remove to Make Valid Parentheses (1249)\M1 - Minimum Remove to Make Valid Parentheses (1249) ✔.csproj", "{5ABF7A41-9F50-459A-942F-D8B2984A6308}"
 EndProject
