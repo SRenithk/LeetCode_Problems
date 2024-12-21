@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E3 - Reverse String (344) �
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H2 - Candy (135)⌛", "H2 - Candy (135)\H2 - Candy (135)⌛.csproj", "{D1DF5ECF-91BC-49E9-B909-472A9501C82A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E4 - Lemonade Change (860)", "E4 - Lemonade Change (860)\E4 - Lemonade Change (860).csproj", "{1F42149B-A4E5-4018-BC69-ABD3A0F5FA10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D1DF5ECF-91BC-49E9-B909-472A9501C82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DF5ECF-91BC-49E9-B909-472A9501C82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DF5ECF-91BC-49E9-B909-472A9501C82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F42149B-A4E5-4018-BC69-ABD3A0F5FA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F42149B-A4E5-4018-BC69-ABD3A0F5FA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F42149B-A4E5-4018-BC69-ABD3A0F5FA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F42149B-A4E5-4018-BC69-ABD3A0F5FA10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{2CBB3EC4-81D4-4506-A731-C41270641F06} = {31E63C03-95F5-4A1A-BE21-8DE157D8A3B9}
 		{ED2DEE77-7106-4393-A27F-44B6162698B8} = {730D4987-87D0-4313-B281-7010A373E31C}
 		{D1DF5ECF-91BC-49E9-B909-472A9501C82A} = {0D2A4305-2969-425C-A66A-030ED7595DAC}
+		{1F42149B-A4E5-4018-BC69-ABD3A0F5FA10} = {730D4987-87D0-4313-B281-7010A373E31C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11923438-AB4E-4E0C-9621-11A6C887ADDD}

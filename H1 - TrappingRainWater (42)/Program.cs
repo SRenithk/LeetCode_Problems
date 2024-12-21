@@ -120,7 +120,13 @@ class Program
         int[] input5 = [0, 4, 3, 2, 4, 1, 2, 3, 0, 1]; // 7
         int[] input6 = [0]; // 0
 
-        var op = Solution.Trap(input6);
+        int[] input7 = [0, 5, 2, 4, 3, 8, 2, 5]; // 9
+        int[] input8 = [4, 3, 2, 1, 0]; // 0
+        int[] input9 = [1, 0, 0, 0, 0, 0, 2]; // 5
+        int[] input10 = [0, 4, 6, 3, 1, 0, 0, 0, 8, 5, 3, 9, 0]; //34
+
+
+        var op = Solution.Trap(input10);
         Console.WriteLine(op);
     }
 }
